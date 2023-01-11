@@ -200,7 +200,6 @@ def outcome(probability):
 
 
 game = Game()
-# game.board = ["-", "o", "-", "-", "x", "-", "-", "-", "-"]
 game.print_board()
 while game.game_over is False:
     if game.players_turn == 1:
