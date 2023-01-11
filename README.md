@@ -12,7 +12,7 @@ while game.game_over is False:
         x = input("Enter the space you would like to go 1-9(left to right, top to bottom):")
         game.turn(x)
 ```
-A MiniMax Algorithm that get's a list of moves
+And a MiniMax Algorithm that get's a list of moves
 that are as good as eachother, 
 then picks a random move, for (semi)random play.
 
